@@ -77,6 +77,10 @@
 		1FA43BC6224E569900F565CB = {
 			isa = PBXGroup;
 			children = (
+				2F4FEE6627AE8E6A000C017D /* Supporting Files */,
+				2F48E48327AE7E9B00D94CB2 /* Model */,
+				2F48E48427AE7EA100D94CB2 /* View */,
+				2F48E48527AE7EAE00D94CB2 /* Controller */,
 				1FA43BD1224E569900F565CB /* CountOnMe */,
 				1FA43BE6224E569A00F565CB /* CountOnMeTests */,
 				1FA43BF1224E569A00F565CB /* CountOnMeUITests */,
@@ -97,9 +101,6 @@
 		1FA43BD1224E569900F565CB /* CountOnMe */ = {
 			isa = PBXGroup;
 			children = (
-				2F48E48527AE7EAE00D94CB2 /* Controller */,
-				2F48E48427AE7EA100D94CB2 /* View */,
-				2F48E48327AE7E9B00D94CB2 /* Model */,
 				1FA43BD2224E569900F565CB /* AppDelegate.swift */,
 				1FA43BD4224E569900F565CB /* ViewController.swift */,
 				1FA43BD6224E569900F565CB /* Main.storyboard */,
@@ -147,6 +148,13 @@
 			children = (
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F4FEE6627AE8E6A000C017D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +220,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1320;
 				ORGANIZATIONNAME = "Vincent Saluzzo";
 				TargetAttributes = {
 					1FA43BCE224E569900F565CB = {
@@ -362,6 +370,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -423,6 +432,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
